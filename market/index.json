@@ -24,17 +24,28 @@
       "versions": [
         {
           "version": "2.1.1",
-          "publishTimestamp": 1795460617,
+          "publishTimestamp": 1795460774,
           "source": {
             "type": "git",
             "url": "https://github.com/MicroCapCap/dsh-deep-notebook",
-            "commit": "079b3d05705d00a98c4e9ab2bf546306e69d39ad"
+            "commit": "581705b3f42dc17f0f39a7980e073aeb2f4d0368"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5 <0.3.0-0"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "keywords": [
+          "study notebook",
+          "DeepSeek Harness",
+          "lessons",
+          "quizzes",
+          "flashcards",
+          "learner memory",
+          "spaced repetition"
+        ]
+      }
     }
   ]
 }
