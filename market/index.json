@@ -28,12 +28,11 @@
           "source": {
             "type": "git",
             "url": "https://github.com/MicroCapCap/dsh-deep-notebook",
-            "commit": "a18d71084f371601916f03f43b7be6b7abd38ca2"
+            "commit": "079b3d05705d00a98c4e9ab2bf546306e69d39ad"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5 <0.3.0-0"
-          },
-          "commit": "079b3d05705d00a98c4e9ab2bf546306e69d39ad"
+          }
         }
       ]
     }
