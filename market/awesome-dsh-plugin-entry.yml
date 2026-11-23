@@ -1,0 +1,6 @@
+url: https://github.com/MicroCapCap/dsh-deep-notebook
+name: MicroCapCap/dsh-deep-notebook
+category: education
+description:
+  en: Turns every lesson, quiz, plan, and chat in a study notebook into a DeepSeek Harness session. Each notebook is its own Harness workspace; adds a per-notebook course style, clickable native quizzes, learner memory, and manual lesson completion.
+tarball: https://github.com/MicroCapCap/dsh-deep-notebook/releases/download/v2.1.1/dsh-deep-notebook-2.1.1.tgz
