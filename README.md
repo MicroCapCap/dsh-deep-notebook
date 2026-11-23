@@ -56,10 +56,10 @@ Conversations themselves live in Harness session storage. Exporting a notebook i
 DSH has no central plugin store. It discovers plugins through index files. This repository publishes one:
 
 ```
-https://raw.githubusercontent.com/MicroCapCap/dsh-deep-notebook/main/market/index.json
+https://cdn.jsdelivr.net/gh/MicroCapCap/dsh-deep-notebook@main/market/index.json
 ```
 
-To use it, enable **Experimental plugins → Custom plugin indexes**, open **Plugins → Discover → Add index source**, and paste the URL. The index lists Deep Notebook 2.1.1 with its icon, description, repository, and install source. A GitHub Pages mirror is also generated at `https://microcapcap.github.io/dsh-deep-notebook/market/index.json` once Pages finishes its first build.
+To use it, enable **Experimental plugins → Custom plugin indexes**, open **Plugins → Discover → Add index source**, and paste the URL. The index lists Deep Notebook 2.1.1 with its icon, description, repository, and install source. Fallbacks: `https://raw.githubusercontent.com/MicroCapCap/dsh-deep-notebook/main/market/index.json` and `https://microcapcap.github.io/dsh-deep-notebook/market/index.json`.
 
 ## Development
 
