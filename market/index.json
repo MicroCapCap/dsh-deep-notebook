@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Deep Notebook"
+  },
+  "description": {
+    "en": "Plugin index for Deep Notebook, an AI-native study notebook for DeepSeek Harness."
+  },
+  "plugins": [
+    {
+      "name": "dsh-deep-notebook",
+      "title": {
+        "en": "Deep Notebook"
+      },
+      "description": {
+        "en": "Turns every lesson, quiz, plan, and chat into a real Harness session, with course style, clickable quizzes, learner memory, and manual lesson completion."
+      },
+      "icon": "icons/deep-notebook.svg",
+      "author": "MicroCapCap",
+      "homepage": "https://github.com/MicroCapCap/dsh-deep-notebook#readme",
+      "repository": {
+        "url": "https://github.com/MicroCapCap/dsh-deep-notebook"
+      },
+      "versions": [
+        {
+          "version": "2.1.1",
+          "publishTimestamp": 1795460547,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MicroCapCap/dsh-deep-notebook",
+            "commit": "a18d71084f371601916f03f43b7be6b7abd38ca2"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}
