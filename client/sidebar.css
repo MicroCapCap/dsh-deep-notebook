@@ -1,0 +1,79 @@
+.dn-sidebar-seat { flex: 0 0 auto; }
+[data-sidebar-collapsed="true"] .dn-sidebar-seat { display: none; }
+.dn-sidebar { margin: 10px 0 9px; color: var(--dsw-alias-label-primary, inherit); }
+.dn-sidebar .dn-side-heading, .dn-sidebar .dn-side-button, .dn-sidebar .dn-side-toggle {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  border: 0;
+  border-radius: var(--dsw-radius-sm, 7px);
+  cursor: pointer;
+}
+.dn-sidebar .dn-side-heading { gap: 6px; padding: 5px var(--dsh-sidebar-row-padding, 12px); width: 100%; color: var(--dsw-alias-label-tertiary, #646871); }
+.dn-sidebar .dn-side-heading svg, .dn-sidebar .dn-side-button svg { flex-shrink: 0; }
+.dn-sidebar :where(button):focus-visible { outline: 2px solid var(--dsw-focus-ring-color, #4d6bfe); outline-offset: -2px; }
+.dn-sidebar :where(button):hover:not(:disabled) { background: var(--dsw-alias-interactive-bg-hover, #82899b19); }
+.dn-sidebar .dn-side-scroll { max-height: min(32vh, 440px); overflow: auto; overscroll-behavior: contain; scrollbar-width: thin; }
+.dn-sidebar .dn-side-button { width: 100%; min-height: 31px; padding: 3px var(--dsh-sidebar-row-padding, 12px); gap: 8px; }
+.dn-sidebar .dn-side-button:disabled { opacity: .6; cursor: default; }
+.dn-sidebar .dn-side-button > span[aria-hidden] { width: 16px; flex: 0 0 16px; text-align: center; }
+.dn-sidebar .dn-side-text { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.dn-sidebar .dn-side-book-head { display: flex; align-items: center; border-radius: var(--dsw-radius-sm, 7px); }
+.dn-sidebar .dn-side-book-head .dn-side-toggle { flex: 0 0 25px; justify-content: center; min-height: 27px; }
+.dn-sidebar .dn-side-book-head .dn-side-button { padding-left: 0; }
+.dn-sidebar .dn-side-children { margin: 1px 0 3px 22px; }
+.dn-sidebar .dn-side-children .dn-side-button { min-height: 29px; font-size: 12px; }
+.dn-sidebar .dn-side-selected, .dn-sidebar [aria-current="page"] { background: var(--dsw-alias-interactive-bg-hover, #82899b24); }
+.dn-sidebar .dn-side-status { font-size: 12px; padding: 4px 12px; color: var(--dsw-alias-label-secondary, #646871); }
+.dn-sidebar .dn-side-book-head { position: relative; }
+.dn-sidebar .dn-side-book-head .dn-side-button { flex: 1 1 auto; width: auto; min-width: 0; }
+.dn-sidebar .dn-side-menu { position: relative; flex: 0 0 auto; margin-left: auto; padding-right: 2px; }
+.dn-sidebar .dn-side-menu > summary {
+  list-style: none;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  color: var(--dsw-alias-label-tertiary, #646871);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dn-sidebar .dn-side-menu > summary::-webkit-details-marker { display: none; }
+.dn-sidebar .dn-side-menu > summary:hover, .dn-sidebar .dn-side-menu[open] > summary { background: var(--dsw-alias-interactive-bg-hover, #82899b19); }
+.dn-sidebar .dn-side-menu > div {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 40;
+  min-width: max-content;
+  display: grid;
+  padding: 4px;
+  border: 1px solid var(--dsw-alias-border, #e0e0e0);
+  border-radius: 8px;
+  background: var(--dsw-alias-bg-primary, #fff);
+  box-shadow: 0 8px 20px #0002;
+}
+.dn-sidebar .dn-side-menu button {
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: 12px/1.3 inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.dn-sidebar .dn-side-menu button:hover { background: var(--dsw-alias-interactive-bg-hover, #82899b19); }
+.dn-sidebar .dn-side-menu button.dn-side-delete { color: #c5221f; }
+.dn-sidebar .dn-side-menu button.dn-side-delete:hover { background: rgba(197, 34, 31, .08); }
+
+.dn-menu-item { display: flex; align-items: center; gap: 8px; width: 100%; padding: 7px 10px; border: 0; border-radius: 7px; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.dn-menu-item:hover { background: var(--dn-soft); }
+.dn-menu-item svg { flex: 0 0 auto; }
