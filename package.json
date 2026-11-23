@@ -5,10 +5,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LaFloraison/dsh-deep-notebook.git"
+    "url": "git+https://github.com/MicroCapCap/dsh-deep-notebook.git"
   },
-  "homepage": "https://github.com/LaFloraison/dsh-deep-notebook",
-  "bugs": { "url": "https://github.com/LaFloraison/dsh-deep-notebook/issues" },
+  "homepage": "https://github.com/MicroCapCap/dsh-deep-notebook",
+  "bugs": { "url": "https://github.com/MicroCapCap/dsh-deep-notebook/issues" },
   "type": "module",
   "main": "./lib/host.js",
   "icon": "./icon.svg",

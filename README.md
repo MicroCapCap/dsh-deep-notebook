@@ -51,6 +51,16 @@ Conversations themselves live in Harness session storage. Exporting a notebook i
 - Old plugin conversations from 1.1 and earlier are shown read-only under **Earlier conversations**; they are not converted into Harness sessions.
 - A notebook's folder path is permanent after its first session (Harness session working directories are immutable). Renaming a notebook changes its title only.
 
+## Plugin index
+
+DSH has no central plugin store. It discovers plugins through index files. This repository publishes one:
+
+```
+https://raw.githubusercontent.com/MicroCapCap/dsh-deep-notebook/main/market/index.json
+```
+
+To use it, enable **Experimental plugins → Custom plugin indexes**, open **Plugins → Discover → Add index source**, and paste the URL. The index lists Deep Notebook 2.1.1 with its icon, description, repository, and install source. A GitHub Pages mirror is also generated at `https://microcapcap.github.io/dsh-deep-notebook/market/index.json` once Pages finishes its first build.
+
 ## Development
 
 `node scripts/build.mjs` creates the browser bundle. `node --test` runs the storage, report-import, workspace, study-progress, spaced-review, memory, artifact, and route tests. Use `pnpm pack` to build an installable archive.
