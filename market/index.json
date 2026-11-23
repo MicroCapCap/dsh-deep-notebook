@@ -24,7 +24,7 @@
       "versions": [
         {
           "version": "2.1.1",
-          "publishTimestamp": 1795460547,
+          "publishTimestamp": 1795460617,
           "source": {
             "type": "git",
             "url": "https://github.com/MicroCapCap/dsh-deep-notebook",
@@ -32,7 +32,8 @@
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5 <0.3.0-0"
-          }
+          },
+          "commit": "079b3d05705d00a98c4e9ab2bf546306e69d39ad"
         }
       ]
     }
