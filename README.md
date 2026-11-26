@@ -14,6 +14,8 @@ Deep Notebook is a study notebook for DeepSeek Harness Desktop. A notebook is a 
 
 In DeepSeek Harness Desktop 0.2.2-rc.5 or a compatible 0.2 build, open **Plugins → Add plugin** and enter the absolute path to this folder or its packed `.tgz`. Enable **dsh-deep-notebook** and restart Harness if it asks. **More → Deep Notebook** opens the library.
 
+**Requirements.** PDF, DOCX, PPTX, XLSX, and EPUB sources need the local [MarkItDown CLI](https://github.com/microsoft/markitdown): install it with `pip install markitdown`, or put a `markitdown` executable on `PATH`. Text, Markdown, CSV, JSON, and transcript sources work without it; when it is missing, a document import fails with a message telling you to install it.
+
 | Where | What it does |
 | --- | --- |
 | Get started | **Set goal** opens a setup session. The tutor asks about the objective, level, daily time, and deadline, then records the goal. |
